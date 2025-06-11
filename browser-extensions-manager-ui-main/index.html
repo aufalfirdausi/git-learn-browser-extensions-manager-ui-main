@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Browser extensions manager UI</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -16,61 +16,133 @@
 </head>
 <body>
 
-  Extensions List
+  <div id="mode"><img src="logo.svg" alt=""><img src="icon-moon.svg" alt=""><img src="icon-sun.svg" alt=""></div>
 
-  All
-  Active
-  Inactive
+  <div class="menu">
+  <h1>Extensions List</h1>
+
+  <button>All</button>
+  <button>Active</button>
+  <button>Inactive</button>
+  </div>
 
   <!-- If you plan to use the JSON file to populate the data dynamically, you can delete the content below -->
 
-  DevLens
-  Quickly inspect page layouts and visualize element boundaries.
-  Remove
+  <div class="core">
 
-  StyleSpy
-  Instantly analyze and copy CSS from any webpage element.
-  Remove
+    <div class="card">
+      <img src="logo-devlens.svg" alt=""> <h3>DevLens</h3>
+      <p>Quickly inspect page layouts and visualize element boundaries.</p>
+      <button>Remove</button>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+    </div>
 
-  SpeedBoost
-  Optimizes browser resource usage to accelerate page loading.
-  Remove
+  <div class="card">
+    <img src="logo-style-spy.svg" alt=""><h3>StyleSpy</h3>
+  <p>Instantly analyze and copy CSS from any webpage element.</p>
+  <button>Remove</button>
+  <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+  </div>
 
-  JSONWizard
-  Formats, validates, and prettifies JSON responses in-browser.
-  Remove
+  <div class="card">
+    <img src="" alt=""><h3>SpeedBoost</h3>
+  <p>Optimizes browser resource usage to accelerate page loading.</p>
+  <button>Remove</button>
+  <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+  </div>
 
-  TabMaster Pro
-  Organizes browser tabs into groups and sessions.
-  Remove
+  <div class="card">
+    <img src="" alt=""><h3>JSONWizard</h3>
+  <p>Formats, validates, and prettifies JSON responses in-browser.</p>
+  <button>Remove</button>
+  <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+  </div>
 
-  ViewportBuddy
-  Simulates various screen resolutions directly within the browser.
-  Remove
+  <div class="card">
+    <img src="" alt=""><h3>TabMaster Pro</h3>
+  <p>Organizes browser tabs into groups and sessions.</p>
+  <button>Remove</button>
+  <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+  </div>
 
-  Markup Notes
-  Enables annotation and notes directly onto webpages for collaborative debugging.
-  Remove
+  <div class="card"><h3>ViewportBuddy</h3>
+  <p>Simulates various screen resolutions directly within the browser.</p>
+  <button>Remove,
+    <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+    </div>
 
-  GridGuides
-  Overlay customizable grids and alignment guides on any webpage.
-  Remove
+  <div class="card"><h3>Markup Notes</h3>
+  <p>Enables annotation and notes directly onto webpages for collaborative debugging.</p>
+  <button>Remove</button>
+    <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+  </div>
 
-  Palette Picker
-  Instantly extracts color palettes from any webpage.
-  Remove
 
-  LinkChecker
-  Scans and highlights broken links on any page.
-  Remove
+  <div class="card"><h3>GridGuides</h3>
+  <p>Overlay customizable grids and alignment guides on any webpage.</p>
+  <button>Remove</button>
+  <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+  </div>
 
-  DOM Snapshot
-  Capture and export DOM structures quickly.
-  Remove
+  <div class="card"><h3>Palette Picker</h3>
+  <p>Instantly extracts color palettes from any webpage.</p>
+  <button>Remove</button>
+  <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+  </div>
 
-  ConsolePlus
-  Enhanced developer console with advanced filtering and logging.
-  Remove
+  <div class="card"><h3>LinkChecker</h3>
+  <p>Scans and highlights broken links on any page.</p>
+  <button>Remove</button>
+  <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+  </div>
+
+  <div class="card"><h3>DOM Snapshot</h3>
+  <p>Capture and export DOM structures quickly.</p>
+  <button>Remove</button>
+  <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+  </div>
+
+  <div class="card"><h3>ConsolePlus</h3>
+  <p>Enhanced developer console with advanced filtering and logging.</p>
+  <button>Remove</button>
+  <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>    
+  </div>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
