@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  //link to fonts
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,700&family=Raleway&display=swap">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
@@ -21,9 +25,11 @@
   <div class="menu">
   <h1>Extensions List</h1>
 
-  <button>All</button>
-  <button>Active</button>
-  <button>Inactive</button>
+  <div>
+    <button>All</button>
+    <button>Active</button>
+    <button>Inactive</button>
+  </div>
   </div>
 
   <!-- If you plan to use the JSON file to populate the data dynamically, you can delete the content below -->
@@ -31,14 +37,14 @@
   <div class="core">
 
     <div class="card">
-      <img src="logo-devlens.svg" alt=""> <h3>DevLens</h3>
-      <p>Quickly inspect page layouts and visualize element boundaries.</p>
+        <img src="logo-devlens.svg" alt=""><h3>DevLens</h3>
+        <p>Quickly inspect page layouts and visualize element boundaries.</p>
       <button>Remove</button>
       <label class="switch">
         <input type="checkbox">
         <span class="slider round"></span>
-      </label>
-    </div>
+      </label>  
+    </div   >
 
   <div class="card">
     <img src="logo-style-spy.svg" alt=""><h3>StyleSpy</h3>
@@ -51,7 +57,7 @@
   </div>
 
   <div class="card">
-    <img src="" alt=""><h3>SpeedBoost</h3>
+    <img src="logo-speed-boost.svg" alt=""><h3>SpeedBoost</h3>
   <p>Optimizes browser resource usage to accelerate page loading.</p>
   <button>Remove</button>
   <label class="switch">
@@ -61,7 +67,7 @@
   </div>
 
   <div class="card">
-    <img src="" alt=""><h3>JSONWizard</h3>
+    <img src="logo-json-wizard.svg" alt=""><h3>JSONWizard</h3>
   <p>Formats, validates, and prettifies JSON responses in-browser.</p>
   <button>Remove</button>
   <label class="switch">
@@ -71,7 +77,7 @@
   </div>
 
   <div class="card">
-    <img src="" alt=""><h3>TabMaster Pro</h3>
+    <img src="logo-tab-master-pro.svg" alt=""><h3>TabMaster Pro</h3>
   <p>Organizes browser tabs into groups and sessions.</p>
   <button>Remove</button>
   <label class="switch">
@@ -80,7 +86,8 @@
       </label>
   </div>
 
-  <div class="card"><h3>ViewportBuddy</h3>
+  <div class="card">
+    <img src="logo-viewport-buddy.svg" alt=""><h3>ViewportBuddy</h3>
   <p>Simulates various screen resolutions directly within the browser.</p>
   <button>Remove,
     <label class="switch">
@@ -89,7 +96,8 @@
       </label>
     </div>
 
-  <div class="card"><h3>Markup Notes</h3>
+  <div class="card">
+    <img src="logo-markup-notes.svg" alt=""><h3>Markup Notes</h3>
   <p>Enables annotation and notes directly onto webpages for collaborative debugging.</p>
   <button>Remove</button>
     <label class="switch">
@@ -99,7 +107,8 @@
   </div>
 
 
-  <div class="card"><h3>GridGuides</h3>
+  <div class="card">
+    <img src="logo-grid-guides.svg" alt=""><h3>GridGuides</h3>
   <p>Overlay customizable grids and alignment guides on any webpage.</p>
   <button>Remove</button>
   <label class="switch">
@@ -108,7 +117,8 @@
       </label>
   </div>
 
-  <div class="card"><h3>Palette Picker</h3>
+  <div class="card">
+    <img src="logo-palette-picker.svg" alt=""><h3>Palette Picker</h3>
   <p>Instantly extracts color palettes from any webpage.</p>
   <button>Remove</button>
   <label class="switch">
@@ -117,7 +127,8 @@
       </label>
   </div>
 
-  <div class="card"><h3>LinkChecker</h3>
+  <div class="card">
+    <img src="logo-link-checker.svg" alt=""><h3>LinkChecker</h3>
   <p>Scans and highlights broken links on any page.</p>
   <button>Remove</button>
   <label class="switch">
@@ -126,7 +137,8 @@
       </label>
   </div>
 
-  <div class="card"><h3>DOM Snapshot</h3>
+  <div class="card">
+    <img src="logo-dom-snapshot.svg" alt=""><h3>DOM Snapshot</h3>
   <p>Capture and export DOM structures quickly.</p>
   <button>Remove</button>
   <label class="switch">
@@ -135,13 +147,15 @@
       </label>
   </div>
 
-  <div class="card"><h3>ConsolePlus</h3>
+  <div class="card">
+    <img src="logo-console-plus.svg" alt=""><h3>ConsolePlus</h3>
   <p>Enhanced developer console with advanced filtering and logging.</p>
   <button>Remove</button>
   <label class="switch">
         <input type="checkbox">
         <span class="slider round"></span>
       </label>    
+  </div>
   </div>
 
   <div class="attribution">

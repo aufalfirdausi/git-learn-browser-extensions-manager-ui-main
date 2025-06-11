@@ -1,0 +1,149 @@
+/* .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;	
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  transition: .5s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  background-color: white;
+  bottom: 4px;
+  transition: .5s;
+}
+
+input:checked + .slider {
+  background-color: black;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px black;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+  
+}
+
+.slider.round {
+  border-radius: 50px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+} */
+  :root {
+    --button-color-orange: #f95335;
+    --margin-left: 80px;
+    --margin-right: 80px;
+  }
+
+ body {
+    width: 100vw;
+    height: 100%;
+    background: #020024;
+    background-size:cover;
+    background: linear-gradient(180deg, rgba(2, 0, 20, 1) 0%, rgba(8, 8, 50, 80) 80%);
+    /* padding-left: var(--margin-left);
+    padding-right: var(--margin-right); */
+    margin: 0;
+    display: column;
+    font-family: "Noto Sans";
+ }
+
+ body > * {
+  margin-left:var(--margin-left) ;
+  margin-right: var(--margin-right);
+ }
+
+ #mode {
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 10px;
+  border-radius: 10px;
+ }
+
+ .menu {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ .menu button {
+  background-color: #4f4f4f80;
+  padding: 7px 14px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+ }
+
+ .menu button:hover {
+  background-color: var(--button-color-orange);
+  color: black;
+  cursor: pointer;
+ }
+
+ .core {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+ }
+
+ .card {
+  background-color: #4f4f4f80;
+  width: 420px;
+  height: 255px;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 10px 10px 20px;
+  box-sizing: border-box;
+ }
+ 
+ .card > img {
+   padding: 0;
+    margin: 0;
+    height: fit-content;
+ }
+
+ .card > h3 {
+  margin: 0;
+  padding-left: 0px;
+  color: white;
+ }
+
+ .card > p {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  color: white;
+  align-self: flex-start;
+  justify-content: flex-end;
+ }
+
+ 
+
+ 
+
+ 
