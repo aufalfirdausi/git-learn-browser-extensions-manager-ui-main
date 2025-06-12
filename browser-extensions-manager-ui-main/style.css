@@ -115,10 +115,10 @@ input:checked + .slider:before {
   width: 420px;
   height: 255px;
   border-radius: 15px;
-  display: flex;
-  flex-wrap: wrap;
+  display: flex;;
   padding: 20px 10px 10px 20px;
   box-sizing: border-box;
+  position: relative;
  }
  
  .card > img {
@@ -127,22 +127,61 @@ input:checked + .slider:before {
     height: fit-content;
  }
 
- .card > h3 {
+ /* .card > h3 {
   margin: 0;
-  padding-left: 0px;
+  padding-left: 20px;
   color: white;
  }
 
  .card > p {
   margin: 0;
   padding: 0;
-  display: flex;
   color: white;
+  padding-left: 50px;
+ } */
+
+ .content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  height: fit-content;
+  color: white;
+ }
+
+ .content > h3 {
+  margin: 0;
+  padding-bottom: 20px;
+ }
+
+ .content > p {
+    margin: 0;
+ }
+
+ button, label {
+  margin-top: auto;
+ }
+
+ .card > button {
   align-self: flex-start;
-  justify-content: flex-end;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+ }
+
+ .card > .switch {
+  align-self: flex-end;
+  margin-left: auto;
  }
 
  
+
+ /* button {
+  align-self: flex-end;
+ } 
+
+ label, input, span{
+ align-self: flex-end;
+ } */
 
  
 
