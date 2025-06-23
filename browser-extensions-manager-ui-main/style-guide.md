@@ -22,11 +22,17 @@ The designs were created to the following widths:
 - **Neutral 100**: `hsl(0, 0%, 93%)`
 - **Neutral 0**: `hsl(200, 60%, 99%)`
 
+
+
 ### Red
 
 - **Red 400**: `hsl(3, 86%, 64%)`
 - **Red 500**: `hsl(3, 71%, 56%)`
 - **Red 700**: `hsl(3, 77%, 44%)`
+
+--red-400: #f06a6a;  
+--red-500: #e04747;  
+--red-700: #c52626;  
 
 ### Gradient
 
