@@ -38,7 +38,8 @@
     height: 100%;
     background: linear-gradient(180deg, #040918 0%, #091540 100%);
     margin: 0;
-    display: column;
+    display: flex;
+    flex-direction: column;
     font-family: "Noto Sans";
  }
 
